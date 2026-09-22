@@ -29,8 +29,8 @@ def hai():
 # ---- Task 1: GET /wish/<name>  ->  Good morning <name> ----------------------
 @route("/wish/<name>")
 def wish(name):
-    # TODO (Task 1): return the text "Good morning " followed by the name
-    return "TODO (Task 1)"
+    # TODO (good morning): return the text "Good morning " followed by the name
+    return TODO "(good morning)"
 
 
 # ---- Task 2: GET /about  ->  your own details, the three keys of the table --
